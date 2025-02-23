@@ -27,9 +27,5 @@ Thumbs.db
 *.sublime-workspace
 *.sublime-project
 
-# Npm package lock files (if you use Yarn, you can keep this one)
-package-lock.json
-yarn.lock
-
 # Optional: Ignore the test coverage folder
 coverage/
