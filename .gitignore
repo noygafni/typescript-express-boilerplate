@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+
+# Output directory for TypeScript compilation
+dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# TypeScript artifacts
+*.tsbuildinfo
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Npm package lock files (if you use Yarn, you can keep this one)
+package-lock.json
+yarn.lock
+
+# Optional: Ignore the test coverage folder
+coverage/

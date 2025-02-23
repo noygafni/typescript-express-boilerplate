@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug node",
+            "type": "node",
+            "request": "launch",
+            // "runtimeExecutable": "nodemon",
+            // "runtimeArgs": [
+            //     "-r",
+            //     "dotenv/config",
+            //     "src/app.ts" // Entry point of your application
+            // ],
+            "program": "${workspaceFolder}/src/app.ts",
+            "skipFiles": [
+                "<node_internals>/**"
+            ], // Skip internal node files for debugging
+            "sourceMaps": true, // Enable source maps for TypeScript
+            "outFiles": [
+                "${workspaceFolder}/dist/**/*.js"
+            ], // Location for compiled JS files
+            "preLaunchTask": "npm: build"
+        }
+    ]
+}
